@@ -1,0 +1,93 @@
+html
+    //tamaño general a partir de este se modificaran
+    font-size: 15px
+//Estilos bloque encabezado
+.welcome
+    background: url('../images/fondo_bienvenido.jpg')
+    background-size: cover
+    height: 100vh
+    overflow: hidden
+    & .header        
+        & .navbar-light 
+            background: rgba(0,0,0,0.6)
+            & .navbar-brand
+                color: #fff
+                font-size: 1.3rem
+                text-transform: uppercase
+            & button i
+                color: #fff
+                font-size: 2rem
+            & .navbar-nav 
+                width: 100%
+                justify-content: flex-end
+                & .nav-link
+                    color: #fff
+                    text-align: center
+                    padding: 0.7rem
+                    text-transform: uppercase
+                    border-radius: 5px
+                    transition: all 0.3s ease
+                    &:hover
+                        background: #F05F40
+                & .active>.nav-link
+                    color: #fff
+                    background: #F05F40
+    & .text-welcome
+        margin-top: 6rem
+        color: #fff
+        & a.btn-primary
+            background-color: #F05F40
+            border-color: #b93e24
+            transition: all 0.5 ease
+            &:hover
+                background-color: #f17f66
+//Estilos bloque quienes somos
+.quienes-somos
+    background-color: #F05F40
+    color: #fff
+    margin-top: -2px
+    .container
+        & img
+            width: 180px
+        & a.btn-secondary
+            background-color: #fff
+            border-color: #fff
+            color: #000
+//Estilos servicios
+.servicios
+    & i
+        font-size: 6rem
+        color: #F05F40
+//Estilos de ultimos proyectos
+.ultimos-proyectos
+    background-color: #424141
+    color: #fff
+    & .container
+        & a
+            text-decoration: none
+            display: block
+            overflow: hidden
+            margin-bottom: 1.5rem
+            &:hover img
+                transform: scale(1.5)
+        & img            
+            width: 290px
+            min-width: 100%
+            transition: all 0.3s ease
+//Estilos pie de pagina
+.footer
+    color: #fff
+    background-color: #222222
+
+
+
+//Media queries
+@media (min-width:768px)
+    html
+        font-size: 16px
+    //Estilos bloque encabezado
+    .welcome
+        background: url('../images/fondo-benvenido-grande.jpg')
+        background-size: cover
+        & .text-welcome
+            margin-top: 12rem

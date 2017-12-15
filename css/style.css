@@ -1,0 +1,93 @@
+html {
+  font-size: 15px; }
+
+.welcome {
+  background: url("../images/fondo_bienvenido.jpg");
+  background-size: cover;
+  height: 100vh;
+  overflow: hidden; }
+  .welcome .header .navbar-light {
+    background: rgba(0, 0, 0, 0.6); }
+    .welcome .header .navbar-light .navbar-brand {
+      color: #fff;
+      font-size: 1.3rem;
+      text-transform: uppercase; }
+    .welcome .header .navbar-light button i {
+      color: #fff;
+      font-size: 2rem; }
+    .welcome .header .navbar-light .navbar-nav {
+      width: 100%;
+      -webkit-box-pack: end;
+          -ms-flex-pack: end;
+              justify-content: flex-end; }
+      .welcome .header .navbar-light .navbar-nav .nav-link {
+        color: #fff;
+        text-align: center;
+        padding: 0.7rem;
+        text-transform: uppercase;
+        border-radius: 5px;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease; }
+        .welcome .header .navbar-light .navbar-nav .nav-link:hover {
+          background: #F05F40; }
+      .welcome .header .navbar-light .navbar-nav .active > .nav-link {
+        color: #fff;
+        background: #F05F40; }
+  .welcome .text-welcome {
+    margin-top: 6rem;
+    color: #fff; }
+    .welcome .text-welcome a.btn-primary {
+      background-color: #F05F40;
+      border-color: #b93e24;
+      -webkit-transition: all 0.5 ease;
+      transition: all 0.5 ease; }
+      .welcome .text-welcome a.btn-primary:hover {
+        background-color: #f17f66; }
+
+.quienes-somos {
+  background-color: #F05F40;
+  color: #fff;
+  margin-top: -2px; }
+  .quienes-somos .container img {
+    width: 180px; }
+  .quienes-somos .container a.btn-secondary {
+    background-color: #fff;
+    border-color: #fff;
+    color: #000; }
+
+.servicios i {
+  font-size: 6rem;
+  color: #F05F40; }
+
+.ultimos-proyectos {
+  background-color: #424141;
+  color: #fff; }
+  .ultimos-proyectos .container a {
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 1.5rem; }
+    .ultimos-proyectos .container a:hover img {
+      -webkit-transform: scale(1.5);
+              transform: scale(1.5); }
+  .ultimos-proyectos .container img {
+    width: 290px;
+    min-width: 100%;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+
+.footer {
+  color: #fff;
+  background-color: #222222; }
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px; }
+
+  .welcome {
+    background: url("../images/fondo-benvenido-grande.jpg");
+    background-size: cover; }
+    .welcome .text-welcome {
+      margin-top: 12rem; } }
+
+/*# sourceMappingURL=style.css.map */
